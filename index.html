@@ -11,9 +11,10 @@
 <body>
   <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
 
-  <a-scene button>
+  <a-scene button button2>
     <a-camera cursor="rayOrigin: mouse"></a-camera>
     <button id="myButton">Generate new funky hat!</button>
+    <button id="buttonParty">Go into party mode!</button>
     <a-entity id="rim" geometry="primitive: ring; radiusInner: 0.18; radiusOuter: 0.25; thetaLength: 360; segmentsTheta: 32" 
               position="0 1.2 -1" rotation="90 45 0" material="color: #00FF00; side: double" ></a-entity>
     <a-entity id="hat" geometry="primitive: cylinder; radius: 0.18; height: 0.3; openEnded: false" 
